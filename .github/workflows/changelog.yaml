@@ -25,15 +25,15 @@ jobs:
           echo "## Latest Changes" >> CHANGELOG.md
           echo "" >> CHANGELOG.md
           
-          # Features
-          echo "### 🚀 Features" >> CHANGELOG.md
-          git log --pretty=format:"* %ad - %s" --date=short | grep "^* .*feat:" >> CHANGELOG.md || true
-          echo "" >> CHANGELOG.md
-          echo "" >> CHANGELOG.md
-          
           # Hack Examples
           echo "### 💡 Hack Examples" >> CHANGELOG.md
           git log --pretty=format:"* %ad - %s" --date=short | grep "^* .*eg:" >> CHANGELOG.md || true
+          echo "" >> CHANGELOG.md
+          echo "" >> CHANGELOG.md
+
+          # Features
+          echo "### 🚀 Features" >> CHANGELOG.md
+          git log --pretty=format:"* %ad - %s" --date=short | grep "^* .*feat:" >> CHANGELOG.md || true
           echo "" >> CHANGELOG.md
           echo "" >> CHANGELOG.md
           
