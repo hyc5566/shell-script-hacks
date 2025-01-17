@@ -3,7 +3,8 @@
 ## Latest Changes
 
 ### 💡 Hack Examples
-* 2025-01-17 - eg: test and brackets, common compares used in if condition
+* 2025-01-18 - eg: double brackets []
+* 2025-01-17 - eg: test and brackets, common compares used in if condition [skip ci]
 * 2025-01-16 - eg: variable resolution
 * 2025-01-16 - eg: heredoc example
 
