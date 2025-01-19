@@ -11,7 +11,7 @@
 
 
 ### 🚀 Features
-* 2025-01-20 - feat: parse-args & test on caller
+* 2025-01-20 - feat: parse-args & test on caller [skip ci]
 * 2025-01-16 - feat: add git action to update changelog [skip ci]
 
 
