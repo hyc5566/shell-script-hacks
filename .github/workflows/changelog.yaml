@@ -22,7 +22,6 @@ jobs:
         run: |
           echo "# Changelog" > CHANGELOG.md
           echo "" >> CHANGELOG.md
-          echo "## Latest Changes" >> CHANGELOG.md
           echo "" >> CHANGELOG.md
           
           # Hack Examples
