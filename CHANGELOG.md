@@ -2,7 +2,8 @@
 
 
 ### 💡 Hack Examples
-* 2025-01-23 - eg: assign variable & use of echo -e
+* 2025-01-24 - eg: utils/ap.sh obtain the absolute path
+* 2025-01-23 - eg: assign variable & use of echo -e [skip ci]
 * 2025-01-21 - eg: use sed to do substitution [skip ci]
 * 2025-01-19 - eg: useful examples for awk [skip ci]
 * 2025-01-18 - eg: double brackets [] [skip ci]

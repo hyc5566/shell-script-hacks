@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# `:-` or `:=` soft assignment, 預設值賦值
+# `:-` or `:=` soft assignment, 預設值賦值, 當變數未定義或者為空時使用預設值
 # VARIABLE=${SOME_VAR:-default_value}
 # VARIABLE=${SOME_VAR:=default_value}
 
@@ -10,7 +10,7 @@ echo $A
 A=${A:='2'}
 echo $A
 
-# `-` or `=` 只有當變數未定義時使用預設值
+# `-` or `=` 只有當變數未定義時使用預設值, 變數可以為空
 
 A=''
 A=${A:-'3'}
