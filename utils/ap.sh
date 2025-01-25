@@ -32,6 +32,10 @@ set -eEuo pipefail
 #     combined `[ -e $file ]` to check file existence first.
 #   - How can I get the behavior of GNU's readlink -f on a Mac?
 #     https://stackoverflow.com/questions/1055671
+
+# - command: use the command realpath, not function realpath
+# - `--`: make sure that no option is passed to the realpath command
+#         to avoid that there is some pattern `-?` appearing in $1
 realpath() {
   [ -e "$1" ] && command realpath -- "$1"
 }
@@ -40,7 +44,12 @@ realpath() {
 # parse options
 ################################################################################
 
+# {var:+replacement} if var is not empty, use replacement
+# ${files[@]:+"${files[@]}"} -> if file array is not empty, use file array
+# "$@": the rest of arguments
+
 files=()
+# $#: number of arguments
 while (($# > 0)); do
   case "$1" in
   --)
