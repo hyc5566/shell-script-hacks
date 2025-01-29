@@ -2,7 +2,8 @@
 
 
 ### 💡 Hack Examples
-* 2025-01-28 - eg: several cmds in one line
+* 2025-01-29 - eg: create a range of numbers
+* 2025-01-28 - eg: several cmds in one line [skip ci]
 * 2025-01-24 - eg: utils/ap.sh obtain the absolute path [skip ci]
 * 2025-01-23 - eg: assign variable & use of echo -e [skip ci]
 * 2025-01-21 - eg: use sed to do substitution [skip ci]
