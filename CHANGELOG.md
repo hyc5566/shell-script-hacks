@@ -2,7 +2,7 @@
 
 
 ### 💡 Hack Examples
-* 2025-01-30 - eg: date and timestamp
+* 2025-01-30 - eg: date and timestamp [skip ci]
 * 2025-01-29 - eg: create a range of numbers [skip ci]
 * 2025-01-28 - eg: several cmds in one line [skip ci]
 * 2025-01-24 - eg: utils/ap.sh obtain the absolute path [skip ci]

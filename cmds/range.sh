@@ -10,7 +10,16 @@ echo {0..10}
 echo {a..z}
 echo {A..Z}
 
+echo {apple,banana,cherry}
+# range 0.1 ~ 0.9
+echo 0.{1..9}
+
+# zero-padded
+# echo {01..100} # not work
 printf "%02d " {1..10}
+
+# nested brace expansion
+echo {1..3}{a..c}
 
 # seq 在某些系統可能不可用
 # jot 主要在 macOS 上可用
